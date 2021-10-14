@@ -17,13 +17,13 @@
              <div class="droite">
                 <form method="post" action="ContenuPHP.php">
                 <h3>Prénom*:</h3>
-                <input class="barre" type="text" name="prenom" placeholder="Entrez votre prénom">
+                <input class="barre" type="text" name="prenom" placeholder="Entrez votre prénom" required="required">
                 <h3>Nom de famille*:</h3>
-                <input class="barre" type="text" name="nom-f" placeholder="Entrez votre nom de famille">
+                <input class="barre" type="text" name="nom-f" placeholder="Entrez votre nom de famille" required="required">
                 <h3>Email*:</h3>
-                <input class="barre" type="email" name="email"placeholder="Entrez l'email">
+                <input class="barre" type="email" name="email"placeholder="Entrez l'email" required="required">
                 <h3>Commentaire*:</h3>
-                <input class="barre-grosse" type="text" name="commentaire"placeholder="Entrez votre commentaire" ><br>
+                <textarea rows="15" class="barre-grosse" name="commentaire"placeholder="Entrez votre commentaire" required="required" style=resize:vertical></textarea><br>
                 <input class="submit" type="submit" value="Soumettre">  
             </div>
         </div>

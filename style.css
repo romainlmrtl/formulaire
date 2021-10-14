@@ -23,7 +23,7 @@ p {
 
 
 .boite {
-    margin: 50px 95px;
+    margin: 50px 300px;
     display: flex;
     background-color: white;
     justify-content: start;
@@ -42,24 +42,27 @@ p {
     background-color: white;
     padding: 40px;
     font-size: small;
-    padding-top: 65px;
-}
-
-.barre {
-    padding: 10px 400px 10px 8px;
-}
-
-.barre-grosse {
-    padding: 10px 400px 100px 8px;
+    padding-top: 45px;
     
 }
 
-input { 
+.barre {
+    height: 40px;
+    width: 750px;
+}
+
+.barre-grosse {
+    height: 200px;
+    width: 750px;
+     
+}
+
+input, textarea { 
     border: 1px solid #d9dee3;
     border-radius: 5px;
     color: #000000;
     text-align: left;
-    font-size: 10px;
+    font-size: 15px;
 }
 
 .submit {
